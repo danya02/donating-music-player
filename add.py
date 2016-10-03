@@ -1,8 +1,6 @@
 #!/usr/bin/python3
-import mutagen
-from mutagen.mp3 import MP3
 from mutagen.id3 import ID3NoHeaderError
-from mutagen.id3 import ID3, TIT2, TALB, TPE1, TPE2, COMM, USLT, TCOM, TCON, TDRC
+from mutagen.id3 import ID3, COMM
 filename = input("Path to file: ")
 aid = input("Artist ID: ")
 
